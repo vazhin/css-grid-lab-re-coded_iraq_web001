@@ -6,7 +6,8 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template: repeat(4, 1fr)  / repeat(3, 1fr);
+  grid-template: [header-start] 1fr [header-end] 1fr 1fr 1fr  / repeat(3, 1fr);
+  grid-gap: 5px;
   height: 100vh;
   width: 100vw;
   /* your properties here */
